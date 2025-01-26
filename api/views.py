@@ -34,4 +34,4 @@ class PatientViewSet(viewsets.ModelViewSet):
         user = self.request.user
         if user.role == 'doctor':
             return self.queryset
-        return Response({"detail": "Requested user must be a doctor."}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
+        return Patient.objects.none()
