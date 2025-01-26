@@ -1,7 +1,7 @@
 
 ## Структура репозитория
 1. `tests` = <api/tests.py>
-2. `code` = <api>
+2. `code` = < api >
 3. `docker` = <Название `Dockerfile` и `docker-compose.yml`>
 4. `migrations` = <api/migrations>
 
